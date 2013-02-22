@@ -132,7 +132,7 @@ bool Command_Meta(IMetamodSourceCommandInfo *info)
 #elif SOURCE_ENGINE == SE_PORTAL2
 			CONMSG("  Engine: Portal 2 (2011)\n");
 #elif SOURCE_ENGINE == SE_CSGO
-			CONMSG("  Engine: Counter-Strike: Global Offensive (2013)\n");
+			CONMSG("  Engine: Counter-Strike: Global Offensive (2012)\n");
 #else
 #error "SOURCE_ENGINE not defined to a known value"
 #endif

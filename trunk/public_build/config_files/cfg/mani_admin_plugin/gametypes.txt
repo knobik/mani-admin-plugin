@@ -1,9 +1,9 @@
 // ************************************************
 //
-// Mani Admin Plugin 2013
+// Mani Admin Plugin 2012
 //
 // Last Update V1.2.22.13
-// 01.09.2013
+// 01.09.2012
 //
 // This file contains definitions that allow
 // the plugin to handle different mods a bit
