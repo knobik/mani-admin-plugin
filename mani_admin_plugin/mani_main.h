@@ -52,7 +52,7 @@ const int	gametypes_min_version = 3;
 #if defined ( GAME_CSGO )
 #define COMMON_CORE "1.2.22.13c"
 #else
-#define COMMON_CORE "1.2.22.13"
+#define COMMON_CORE "1.2.22.14"
 #endif
 #define COMMON_VERSION "Mani Admin Plugin 2013 V" COMMON_CORE
 
