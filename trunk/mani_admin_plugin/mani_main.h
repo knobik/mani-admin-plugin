@@ -71,25 +71,6 @@ const int	gametypes_min_version = 3;
 #endif
 #endif
 
-#ifdef GAME_CSGO
-#ifdef SOURCEMM
-#define PLUGIN_VERSION COMMON_VERSION " SMM CSGO, www.mani-admin-plugin.com"
-#define PLUGIN_CORE_VERSION COMMON_CORE " SMM"
-#else
-#define PLUGIN_VERSION COMMON_VERSION " VSP CSGO, www.mani-admin-plugin.com"
-#define PLUGIN_CORE_VERSION COMMON_CORE " VSP"
-#endif
-
-#else
-#ifdef SOURCEMM
-#define PLUGIN_VERSION COMMON_VERSION " SMM, www.mani-admin-plugin.com"
-#define PLUGIN_CORE_VERSION COMMON_CORE " SMM"
-#else
-#define PLUGIN_VERSION COMMON_VERSION " VSP, www.mani-admin-plugin.com"
-#define PLUGIN_CORE_VERSION COMMON_CORE " VSP"
-#endif
-#endif
-
 #define PLUGIN_VERSION_ID "V" COMMON_CORE "\n"
 #define PLUGIN_VERSION_ID2 "V" COMMON_CORE
 
