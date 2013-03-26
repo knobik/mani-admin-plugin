@@ -139,7 +139,7 @@ void GetLinuxBins ( char *game, char *engine ) {
 	Q_snprintf ( game, 256, "./%s/bin/server.so", gamedir );
 
 #else
-	Q_strncpy ( engine, "./bin/engine_.so", 256 );
+	Q_strncpy ( engine, "./bin/engine.so", 256 );
 	Q_snprintf ( game, 256, "./%s/bin/server.so", gamedir );
 #endif
 }
