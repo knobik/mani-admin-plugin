@@ -138,18 +138,12 @@ void		ManiWarmupTimer::LevelInit(void)
 	else
 	{
 #if defined(GAME_CSGO)
-		//Make sure to disable the CSGO default warmup timer
-		ConVar *mp_do_warmup = g_pCVar->FindVar("mp_do_warmup_period");
+		//Set the default CSGO warmup timer value
 		ConVar *mp_warmuptime = g_pCVar->FindVar("mp_warmuptime");
-		if(mp_do_warmup && mp_warmuptime)
+		if(mp_warmuptime)
 		{
-			if(mp_do_warmup->GetInt() != 0)
-			{
-				mp_do_warmup->SetValue(0);
-				//Good practice to set the default timer variable to the mani time
-				// just in case other plugins look at it
-				mp_warmuptime->SetValue(mani_warmup_timer.GetInt());
-			}
+			MMsg("Setting warmup timer value\n");
+			mani_warmup_timer.SetValue(mp_warmuptime->GetInt());
 		}
 #endif
 		check_timer = true;
