@@ -20,7 +20,7 @@
 	"players"
 	{
 		//Player name - should be unique - does not have to be the in-game name of the player
-		"SomePlayer"
+		"Your-name-here"
 		{
 			//Access controls. We recommend using more than one (i.e. control by Name and SteamID)
 	
@@ -32,18 +32,18 @@
 			}
 
 			//In-game name of this user
-			//"name"	"S0m3Pl4y3r"
+			"name"	"Your-name-here"
 
 
 			//SteamID of this user
 			//NOTE: CSGO ID will start with STEAM_0:1, other games STEAM_0:0
-			//"steam"	"STEAM_0:0:1234567"
+			"steam"	"STEAM_0:0:XXXXXX"
 		
 			//What groups this user is in 
 			"groups"
 			{
-				//"Admin"	"ServerOwner"
-				//"Immunity"	"ServerOwner"
+				"Admin"	"ServerOwner"
+				"Immunity"	"ServerOwner"
 			}		
 		}
 	}
