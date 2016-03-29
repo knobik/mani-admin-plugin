@@ -1,0 +1,1 @@
+This repository will act as an backup until changes can can be integrated into the original maniadminplugin repository.
